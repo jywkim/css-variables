@@ -1,10 +1,13 @@
 :root {
   --base: #FF0000;
   --base2: #FFFFFF;
-  --spacing: 10px;
-  --spacing2: 25px;
-  --blur: 10px;
+  --base3: #FFD700;
+  --spacing: 40px;
+  --spacing2: 20px;
+  --spacing3: 10px;
+  --blur: 15px;
   --blur2: 5px;
+  --blur3: 2.5px;
 }
 
 .carter {
@@ -17,6 +20,12 @@
   padding: var(--spacing2);
   background: var(--base2);
   filter: blur(var(--blur2));
+}
+
+.vanvleet {
+  padding: var(--spacing3);
+  background: var(--base3);
+  filter: blur(var(--blur3));
 }
 
 .hl {
