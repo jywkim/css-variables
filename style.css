@@ -1,13 +1,22 @@
 :root {
   --base: #FF0000;
+  --base2: #FFFFFF;
   --spacing: 10px;
+  --spacing2: 25px;
   --blur: 10px;
+  --blur2: 5px;
 }
 
-img {
+.carter {
   padding: var(--spacing);
   background: var(--base);
   filter: blur(var(--blur));
+}
+
+.derozan {
+  padding: var(--spacing2);
+  background: var(--base2);
+  filter: blur(var(--blur2));
 }
 
 .hl {
