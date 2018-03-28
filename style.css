@@ -21,10 +21,10 @@ img {
 body {
   text-align: center;
   background: #202028;
-  color: white;
+  color: #FFF;
   font-family: 'helvetica neue', sans-serif;
   font-weight: 100;
-  font-size: 50px;
+  font-size: 20px;
 }
 
 .controls {
